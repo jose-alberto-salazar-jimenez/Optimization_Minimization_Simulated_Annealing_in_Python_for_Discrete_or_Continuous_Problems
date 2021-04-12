@@ -2,7 +2,7 @@
 
 **Version 1.0**
 
-This code is meant to solve optimization (minimization) problems, through a Simulated Annealing approach, were (1) the shortest path (discrete problems), as on the well-known Traveling Salesman Problem (on a set order coordinates or points), or (2) a global mininum (continuos problem) from an mathematical equation, has to be found.
+This code is meant to solve optimization (minimization) problems, through a Simulated Annealing approach, where (1) the shortest path (discrete problems), as on the well-known Traveling Salesman Problem (on a set order coordinates or points), or (2) a global mininum (continuos problem) from an mathematical equation, has to be found.
 
 The code is comprehended of the following files:
 - **main.py**, where the whole algorithm is run.
