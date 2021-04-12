@@ -5,7 +5,7 @@
 This code is meant to solve optimization (minimization) problems, through a Simulated Annealing approach, were (1) the shortest path (discrete problems), as on the well-known Traveling Salesman Problem (on a set order coordinates or points), or (2) a global mininum (continuos problem) from an mathematical equation, has to be found.
 
 The code is comprehended of the following files:
-- **main.py*, where the whole algorithm is run.
+- **main.py**, where the whole algorithm is run.
 - **SimulatedAnnealing.py**, here is where the simulated annealing algorithm resides.
 - **DistanceFunctions.py**, funtions used to calculate the distance among points/nodes related to the "objective function" (at the moment, in version 1.0, there's only one function available, more will be added in future versions).
 - **MovementFunctions.py**, with two types of movements functions, (1) combinatorial (for discrete problems), and (2) "continuous" (for continuous problems).
