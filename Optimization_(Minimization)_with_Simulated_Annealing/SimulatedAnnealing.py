@@ -62,9 +62,9 @@ class SimulatedAnnealing(object):
             
             #This condition helps avoiding getting stocked into a 'local minimum' by considering the possibility of accepting a 'worst/longer' path
             else: 
-             if random.random() < acceptance_probability:
-                self.current_cost = candidate_cost
-                self.current_state =  candidate_state
+                if random.random() < acceptance_probability:
+                    self.current_cost = candidate_cost
+                    self.current_state =  candidate_state
                 
             if candidate_cost < self.lowest_cost:
                 self.lowest_cost = candidate_cost
