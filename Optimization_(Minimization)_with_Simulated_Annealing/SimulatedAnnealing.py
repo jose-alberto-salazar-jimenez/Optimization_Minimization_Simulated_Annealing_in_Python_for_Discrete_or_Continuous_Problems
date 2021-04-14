@@ -42,7 +42,7 @@ class SimulatedAnnealing(object):
         """
         Executes the 'Simulated Annealing' process/algorithm
         """
-        print('SIMULATED ANNEALING OPTIMIZATION (MINIMIZATION)... Initiating Proces')
+        print('SIMULATED ANNEALING OPTIMIZATION (MINIMIZATION)... Initiating Process')
         
         while self.T >= self.stop_T and self.count_iter < self.max_iter: 
             candidate_state = self.mvt_func(self.current_state,self.boundaries,self.T)
